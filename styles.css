@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-image: url('./assets/images/IMAGE_1.png');
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-content h2 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.header-content p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ff7b54;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.categories {
+  display: flex;
+  gap: 50px;
+}
+
+.categories a {
+  margin: 5px;
+  color: #9b9898;
+  text-decoration: none;
+}
+
+.featured {
+  padding: 40px;
+  text-align: center;
+}
+
+.featured h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.featured-posts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.post {
+  width: 45%;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+}
+
+.post-info h4 {
+  font-size: 1.2rem;
+}
+
+.recent {
+  padding: 40px;
+  text-align: center;
+}
+
+.recent h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.recent-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.post-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-content h4 {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.subscribe h4 {
+  margin-bottom: 10px;
+}
+
+.subscribe input[type="email"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.subscribe button {
+  padding: 8px 12px;
+  background-color: #ff7b54;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer {
+  background-image: url(./assets/images/IMAGE_10.png);
+}
+
+.footer-nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
